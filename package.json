@@ -1,24 +1,23 @@
 {
-  "name": "msteams-nodejs-hello-world",
-  "version": "1.0.0",
-  "description": "Microsoft Teams Hello World sample app written in ES6 with Bot Framework v4 SDK",
+  "name": "msteams-exam-helper",
+  "version": "0.1.0",
+  "description": "Microsoft Teams App Development Challenge project",
   "scripts": {
-    "start": "nodemon --exec babel-node src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node src/app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OfficeDev/msteams-samples-hello-world-nodejs.git"
+    "url": "git+https://github.com/antonmordik/msteams-exam-helper.git"
   },
   "author": "Microsoft Corp.",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/OfficeDev/msteams-samples-hello-world-nodejs/issues"
+    "url": "https://github.com/antonmordik/msteams-exam-helper/issues"
   },
   "homepage": "https://docs.microsoft.com/en-us/microsoftteams/platform/get-started/get-started-nodejs",
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
-    "botbuilder": "^4.8.0",
+    "botbuilder": "^4.11.1",
     "config": "^1.28.1",
     "core-js": "^2.6.11",
     "dotenv": "^8.2.0",
